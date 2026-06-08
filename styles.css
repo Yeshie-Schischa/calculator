@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+main {
+    width: fit-content;
+    margin: 50px auto;
+    display: grid;
+    grid-template-areas: "screen screen screen screen screen";
+    background-color: rgba(0, 0, 0, 0.336);
+    justify-content: space-around;
+}
+
+main div {
+    padding: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(70, 70, 70, 0.897));
+    margin: 4px;
+    color: white;
+    cursor: pointer;
+}
+#screen {
+    grid-area: screen;
+    height: 60px;
+    background-image: linear-gradient(white, white);
+    margin: 7px;
+    color: black;
+    cursor: default;
+}
